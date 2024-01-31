@@ -23,14 +23,26 @@
 3. **Dynamic Market Conditions**: Online markets are highly dynamic, requiring constant adjustments to pricing strategies, which can be resource-intensive.
 4. **Privacy and Ethical Concerns**: Using customer data for pricing optimization must be balanced with ethical considerations and privacy laws.
 
-### Azure Blob Storage (ABS) for Scalable and Durable Object Storage
+### Azure Blob Storage (ABS) Features for Walmart's Data Set
 
-ABS provides scalable and durable storage solutions for large datasets like Walmart's by:
+1. **Handles More Data Easily**
+   - As Walmart's data grows, ABS can easily handle the increase in data size without any manual changes.
 
-1. **High Scalability**: ABS can handle massive amounts of data, scaling up or down based on the requirements, which is essential for storing Walmart's extensive dataset.
-2. **Durability and Reliability**: It ensures data integrity and protection against loss, which is crucial for maintaining a reliable data source for analysis.
-3. **Accessibility**: ABS allows easy access to data from various locations and platforms, supporting Walmart's global operations.
-4. **Cost-Effectiveness**: ABS offers a cost-efficient storage solution, especially for large datasets, by optimizing storage based on usage patterns.
+2. **Keeps Data Safe**
+   - ABS keeps multiple copies of the data in different locations. This ensures that even if there’s a problem in one location, the data is still safe.
+
+3. **Secure**
+   - The data in ABS is encrypted, meaning it’s stored in a secure way. Walmart can also control who can see or use the data.
+
+4. **Fast Access**
+   - ABS is built for quick access to data, which is important for Walmart to quickly update and use its pricing information.
+
+5. **Cost-Effective**
+   - ABS has options to store data that isn't used often in a cheaper way, helping Walmart save money.
+
+6. **Works Well with Other Services**
+   - ABS easily works with other Azure services, making it simpler for Walmart to analyze and use its data.
+
 
 ### Azure Databricks (ADB) as a Unified Platform
 
